@@ -1,0 +1,77 @@
+/* Aplicar estilo al body para centrar el contenido */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content, .sidebar {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center; /* Centrar el texto */
+}
+
+.main-content img, .sidebar img {
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar h2 {
+    font-size: 1.8em;
+    margin-bottom: 8px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li b {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.1em;
+    width: 100%;
+}

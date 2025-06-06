@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Inscripcion a cursos</title>
+    <link rel="stylesheet" href="hoja1.css">
+</head>
+<body>
+    <h1>Alta de Alumnos</h1>
+    <form action="inserdatos.php" method="post">
+      <p> Ingrese nombre: </p> 
+        <input type="text" name="nombre"><br>
+
+      <p> Ingrese apellido paterno: </p> 
+        <input type="text" name="apellido"><br>
+      <p>    Ingrese email: </p> 
+        <input type="text" name="email"><br>
+      <p>  Selecione el curso: </p> 
+        <select name="codigocurso">
+            <option value="1">PHP</option>
+            <option value="2">Java</option>
+            <option value="3">Phyton</option>
+            <option value="4">C++</option>
+            <option value="5">JavaScript</option>
+            
+        </select><br>
+        <input type="submit" value="Registrar">
+        
+    </form>
+
+
+</body>
+
+</html>
+
